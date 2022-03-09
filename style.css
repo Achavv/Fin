@@ -1,0 +1,31 @@
+body {
+    background-image: url("maim/Loadingmainpage.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+img.nextslide{
+    position:absolute;
+    top: 26%;
+    left: 78%; 
+    src: "maim/BL.png";
+
+}
+img.backslide{
+    position:absolute;
+    top: 48%;
+    left: 28.7%; 
+    src: "maim/BR.png";
+
+}
+
+
+
+/*left/right plus width should = 100%
+
+using just width or just height will auto set the aspect ratio for your image*/
+
+/*
+img.nextslide:hover{
+    src:"maim/BR.png";
+} */
