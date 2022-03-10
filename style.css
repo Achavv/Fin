@@ -4,13 +4,45 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+a:hover {
+    background-color: rgba(255, 121, 244, 0.233);
+}
+#call {
+    position: absolute;
+    top: 38.4%;
+    left: 18.5%;
+    transform: rotate(175deg) skew(31deg, 0deg) scaleX(1.2) scaleY(.90);
+}
+#heart {
+    position: absolute;
+    top: 60.4%;
+    left: 24.5%;
+    transform: rotate(170deg) skew(20deg, 2deg) scaleX(1.2) scaleY(.98);
+}
+#money {
+    position: absolute;
+    top: 72%;
+    left: 27.7%;
+    transform: rotate(170deg) skew(20deg, 2deg) scaleX(1.3) scaleY(.99);
+}
+#bon {
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    transform: rotate(345deg);
 
-#ys {
+}
+#gmail {
+    position: absolute;
+    top: 49.2%;
+    left: 21.5%;
+    transform: rotate(175deg) skew(31deg, 0deg) scaleX(1.2) scaleY(.90);
+}
+#ins {
     position: absolute;
     top: 26%;
     left:14.8%;
-    transform: scaleY(2);
-    transform: skew(30deg, 0deg);
+    transform: rotate(175deg) skew(30deg, 0deg);
 }
 img.nextslide{
     position:absolute;
