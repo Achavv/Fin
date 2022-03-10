@@ -4,6 +4,14 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+#ys {
+    position: absolute;
+    top: 26%;
+    left:14.8%;
+    transform: scaleY(2);
+    transform: skew(30deg, 0deg);
+}
 img.nextslide{
     position:absolute;
     top: 26%;
