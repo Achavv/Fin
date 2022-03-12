@@ -1,0 +1,6 @@
+#ang {
+    position: absolute;
+    top: 21%;
+    left: 36%;
+    transform: rotate(345deg) skew(10deg, 0deg) scaleY(1.1);
+}
