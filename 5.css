@@ -1,3 +1,8 @@
+#perfect {
+    position: absolute;
+    top: 22%;
+    left: 41.7%;
+    transform: rotate(345deg) skew(10deg, 0deg);
+}
 body{
-    background-image: url("maim/pg.png")
-   }
+    background-image: url("maim/b.png");}

@@ -4,7 +4,12 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+.pics {
+    position: absolute;
+    top: 21%;
+    left: 36%;
+    transform: rotate(345deg) skew(10deg, 0deg) scaleY(1.1);
+}
 a:hover {
     background-color: rgba(255, 121, 244, 0.233);
 }

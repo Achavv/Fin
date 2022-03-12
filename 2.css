@@ -1,4 +1,6 @@
-body{
-     background-image: url("maim/p.png")
-
-    }
+#wip {
+     position: absolute;
+    top: 16.8%;
+    left: 40%;
+    transform: rotate(346deg) skew(10deg, 0deg);
+}
