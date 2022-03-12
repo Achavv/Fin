@@ -1,3 +1,31 @@
 body{
-    background-image: url("maim/email.png")
+    background-image: url("maim/email.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
    }
+#gma {
+    position: absolute;
+    top: 19%;
+    left: 24%;
+    font-size: 60px;
+}
+   /* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+img { max-width: 100%; height: auto; }
+/* link*/
+a:link {
+    color: #907cff;
+}
+a:hover {
+    color: #765efc;
+}

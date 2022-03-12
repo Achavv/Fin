@@ -1,3 +1,33 @@
 body{
     background-image: url("maim/callb.png")
    }
+   /* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+img { max-width: 100%; height: auto; }
+#num {
+    position: absolute;
+    top: 28%;
+    left: 55%;
+    font-size: 60px;
+    border: #5e83fc;
+    border-style: dashed;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+/* link*/
+a:link {
+    color: #7cb9ff;
+}
+a:hover {
+    color: #5e83fc;
+}
