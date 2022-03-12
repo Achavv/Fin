@@ -30,7 +30,6 @@ a:hover {
     top: 75%;
     left: 60%;
     transform: rotate(345deg);
-
 }
 #gmail {
     position: absolute;
@@ -48,15 +47,11 @@ img.nextslide{
     position:absolute;
     top: 26%;
     left: 78%; 
-    src: "maim/BL.png";
-
 }
 img.backslide{
     position:absolute;
     top: 48%;
     left: 28.7%; 
-    src: "maim/BR.png";
-
 }
 img { max-width: 100%; height: auto; }
 /* Media Queries: Tablet Landscape */
