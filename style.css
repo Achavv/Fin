@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 a:hover {
     background-color: rgba(255, 121, 244, 0.233);
 }
